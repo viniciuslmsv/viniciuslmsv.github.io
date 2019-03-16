@@ -1,0 +1,44 @@
+﻿body {
+    /*margin:0px;*/
+}
+
+footer {
+    color:white;
+    text-align:center;
+
+}
+#titulo {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    color: white;
+    text-decoration: initial;
+    background-color: #ff0000;
+    height: relative;
+    /*margin-top: auto;*/
+    margin-left: 5px;
+    float:left;
+}
+
+#topo {
+    background-color: #ff0000;
+    align-items:center;
+}
+
+    #topo img {
+        /*float: inherit;
+        width:150px;
+        height:125px;
+        padding-top: 10px;
+        padding-bottom: 10px;*/
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+
+/*#navbar {
+    display:flexbox;
+}*/
+
+#conteudo {
+    position:relative;
+    display:inline-block;
+}

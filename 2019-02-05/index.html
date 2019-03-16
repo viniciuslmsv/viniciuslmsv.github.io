@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Atividade 05/02/2019</title>
+    <!--Anotações da Aula
+
+            Javascript:
+            <script type="text/javascript" src="js/script.js"></script>
+            -->
+    <script type="text/javascript" src="js/script.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+<body onload="bemvindo();">
+    <div>
+        <h1>Exercício 1</h1>
+        <a href="#" onmouseover="document.getElementById('e1').innerHTML='Mensagem aleatória testando Javascript';" onmouseout="document.getElementById('e1').innerHTML='Volta para o link';" onclick="document.getElementById('e1').innerHTML=null;">Link 1</a>
+        <p id="e1"></p>
+    </div>
+    <div>
+        <h1>Exercício 2</h1>
+        <input type="button" value="teste" onclick="document.getElementById('e2').innerHTML='Mensagem aleatória testando Javascript ao clicar';" />
+        <p id="e2"></p>
+        <input type="button" value="Alerta" onclick="alert('Foi encontrado um erro ao gerar um erro')" />
+
+    </div>
+    <div>
+        <h1>Exercício 3</h1>
+        <input type="button" value="teste" onclick="confirm('Foi encontrado um erro ao gerar um erro, clique em ok se entendeu.');" />
+    </div>
+    <div>
+        <h1>Funções em JavaScript</h1>
+            <input type="button" value="teste" onclick="paragrafo()" />
+        <p id="texto">
+        </p>  
+    </div>
+    <div>
+        <h1>Calculadora</h1>
+        <form>
+            <input type="number" id="n1">
+            <input type="number" id="n2">
+            <input type="button" value="Soma" onclick="somar();">
+            
+            <input type="button" value="Subtrair" onclick="subtrair();">
+            
+            <input type="button" value="Multiplicar" onclick="multiplicar();">
+            
+            <input type="button" value="Dividir" onclick="dividir();">
+            <p id="resultado"></p>
+        </form>
+        
+    </div>
+    <div>
+        <h1>Função Mostrar</h1>
+        <form>
+            <input type="text" id="nome">
+            <input type="button" value="ok" onclick="mostrar();">
+            <p id="nomep"></p>
+        </form>
+    </div>
+</body>
+</html>

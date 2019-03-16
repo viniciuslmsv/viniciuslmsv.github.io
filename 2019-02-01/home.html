@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Atividade 01/02/2019</title>
+    <!--Anotações da Aula
+            CSS
+            Importada:
+                <link rel="stylesheet" type="text/css" href="estilo.css" />
+            Incorporada:
+                <style>
+                    Digite aqui os parâmetros do CSS
+                </style>
+            Inline:
+                <p style="color:white"></p>
+
+            Nomes de cores:
+            Tomato, Orange, DodgerBlue, LightGrey, LightBlue
+
+
+            Ao criar classes, deve-se usar .
+            .text1
+            <p class="text1">
+            Ao usar #, ele tem prioridade sobre a classe
+            #col1
+            <p id="col1">
+
+            -->
+    <link rel="stylesheet" type="text/css" href="estilo2.css" />
+</head>
+<body>
+    <div id="site">
+        <div id="topo">
+            <!--titulo-->
+            <h1>Titulo</h1>
+            <div class="scrollmenu">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+            <div id="col1">
+                <a href="#">Home</a>
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+                <a href="#">Link4</a>
+            </div>
+            <div id="col2">
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    Nome:
+                    <input type="text" placeholder="Digite aqui seu nome" required autofocus>
+                    <br />
+                    E-Mail:
+                    <input type="email" placeholder="Digite aqui seu e-mail" required>
+                    <br />
+                    Assunto: 
+                         <select name="assunto">
+                             <option value="elogio">Elogio</option>
+                             <option value="sugestao">Sugestão</option>
+                             <option value="reclamacao">Reclamação</option>
+                         </select>
+                    <br />
+                    Mensagem:
+                    <br>
+                    <textarea name="mensagem" rows="5" cols="30">
+                    </textarea>
+                    <br>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </div>
+            <div id="col3">
+                Menu
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

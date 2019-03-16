@@ -1,0 +1,22 @@
+﻿ul ol { /*seletor*/
+    background:red;
+}
+
+div > p{ /*seletor filho*/
+    text-align:center;
+    font-family:Arial;
+    color:yellow;
+}
+
+div + p { /*seletor irmão adjacente*/
+    font-family:Verdana;
+    font-style:italic;
+    color:lightcoral;
+    background-color:black;
+}
+div ~ p {
+    background-color:yellow;
+}
+h2 ~ p {
+    background-color:brown;
+}

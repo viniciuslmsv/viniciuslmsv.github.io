@@ -1,0 +1,43 @@
+﻿body {
+    /*comentário
+    text-align:center;
+    background-color: #00FF00;
+    font-family:'Segoe UI',Verdana,Arial, sans-serif;
+    font-size:24px;
+    color: #003300;
+    */
+    text-align:center;
+    background-color: blue;
+    font-family:Arial;
+    font-size:24px;
+    color: #003300;
+}
+div {
+    background-color: #cccccc;
+    height: 40px;
+    width: 80%;
+    border-bottom-color: #666666;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-top-color: #666666;
+    border-top-width: medium;
+    border-top-style: solid;
+}
+.texto1 {
+    font-family:Arial,'Segoe UI',sans-serif;
+    font-size:36px;
+    font-style: italic;
+    color:#0000ff;
+    text-decoration:underline;
+}
+.site {
+    width:80%;
+    height:600px;
+    padding-left:100px;
+
+}
+#col1 {
+    width:50%;
+    height:200px;
+    padding-left:200px;
+}

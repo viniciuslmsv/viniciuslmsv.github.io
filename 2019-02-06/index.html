@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Atividade JavaScript 06/02/2019</title>
+    <!--Anotações da Aula
+
+            Javascript:
+            <script type="text/javascript" src="js/script.js"></script>
+
+
+        atributo pattern especifica o que será aceito pelo input
+        <input ... pattern=".{6,}"
+        "[a-z\s]+$" - letras minúsculas com espaço
+        "[0-9]+$" - apenas números
+
+
+        checkValidity()
+        setCustomValidity()
+
+        
+            -->
+    <script type="text/javascript" src="js/script.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+<body>
+    <div>
+        <h1>Desafio de revisão</h1>
+        
+            <input type="text" id="texto" class="texto" placeholder="Digite algum texto aqui">
+            <input type="button" value="ok" onclick="mostrar();">
+            <p id="textop"></p>
+        
+    </div>
+    <div>
+        <h1>Validação</h1>
+            <input id="idade" type="number" min="18" max="99" required>
+            <input id="e-mail" type="email" required >
+            
+            <button onclick="validacao()">OK</button>
+            <p id="validar"></p>
+    
+        
+    </div>
+    <div>
+        <h1>Validação 2</h1>
+        
+            <input id="idade2" type="number" min="18" max="100" required>
+            <button onclick="validacaoidade()">Validar Idade</button>  
+            <p id="validaridade"></p>
+        
+    </div>
+    <div>
+        <h1>Adicionar linha na tabela</h1>
+        <table id="tabela" border="1">
+            <tr>
+                <td>teste</td>
+            </tr>
+
+        </table>
+        <input type="button" id="add" value="Adicionar Linha" onclick="addrow()">
+
+
+
+    </div>
+</body>
+</html>

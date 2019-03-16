@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Atividade 01/02/2019</title>
+    <!--Anotações da Aula
+            CSS
+            Importada:
+                <link rel="stylesheet" type="text/css" href="estilo.css" />
+            Incorporada:
+                <style>
+                    Digite aqui os parâmetros do CSS
+                </style>
+            Inline:
+                <p style="color:white"></p>
+
+            Nomes de cores:
+            Tomato, Orange, DodgerBlue, LightGrey, LightBlue
+
+
+            Ao criar classes, deve-se usar .
+            .text1
+            <p class="text1">
+            Ao usar #, ele tem prioridade sobre a classe
+            #col1
+            <p id="col1">
+
+            Javascript:
+
+            externo: <script language="javascript" src="arquivoexterno.js"></script>
+            -->
+    <link rel="stylesheet" type="text/css" href="estilo2.css" />
+</head>
+<body>
+    <div id="site">
+        <div id="topo">
+            <!--titulo-->
+            <h1>Titulo</h1>
+            <div class="scrollmenu">
+                <a href="#">Home</a>
+                <a href="#">News</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+            </div>
+            <div id="col1" class="vertical-menu">
+                <a href="#" class="active">Home</a>
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+                <a href="#">Link4</a>
+            </div>
+            <div id="col2">
+                <form><!--algumas funções só funcionam corretamente se estiver dentro de um form, como por exemplo os botões e os avisos-->
+                <fieldset>
+                    <legend>Mensagem</legend>
+                    <div>
+                        <label for:"nome">Nome:</label>
+                        <input type="text" placeholder="Digite aqui seu nome" required autofocus>
+                    </div>
+                    <div>
+                        <label for:"email">E-Mail:</label>
+                        <input type="email" placeholder="Digite aqui seu e-mail" required>
+                    </div>
+                    <div>
+                        <label for:"assunto">Assunto:</label>
+                         <select name="assunto">
+                             <option value="elogio">Elogio</option>
+                             <option value="sugestao">Sugestão</option>
+                             <option value="reclamacao">Reclamação</option>
+                         </select>
+                    </div>
+                    <div>
+                        <label for:"mensagem">Mensagem:</label>
+                        <br>
+                        <textarea name="mensagem" rows="5" cols="30"></textarea>
+                    </div>
+                    <div>
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar</button>
+                       
+                    </div>
+                </fieldset>
+                </form>
+            </div>
+            <div id="col3">
+		        <figure>
+	  	            <img src="verao.png" alt="Curso de Verão IME">
+	  	            <legend>A edição de número 48 (XLVIII) do PROGRAMA DE VERÃO do Instituto de Matemática e Estatística da USP será realizado entre 7 de Janeiro a 15 de Fevereiro de 2019.</legend>
+		        </figure>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

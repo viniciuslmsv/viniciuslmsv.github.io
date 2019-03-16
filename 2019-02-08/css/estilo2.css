@@ -1,0 +1,72 @@
+﻿body {
+    font-family:'Segoe UI';
+    width:1000px;
+}
+
+h1 {    
+    padding:inherit;
+}
+fieldset {
+        margin-top:10px;
+        margin-left:20px;
+        margin-right:20px;
+        border:2px solid #ccc;
+        border-radius:1px;
+        text-align:center;    
+}
+label {
+        display:inline-block;
+        width:90px;
+        text-align:right;
+}
+input {
+    width: 150px;
+}
+#divlogo {
+    width:200px;
+    height:100px;
+    background-color:lightgoldenrodyellow;
+    float:left;
+    text-align:center;
+    
+}
+#divtitulo {
+    width:800px;
+    height:100px;
+    background-color:tomato;
+    float:left;
+    text-align:center;
+    color:white;
+
+}
+#divmenu {
+    width:1000px;
+    height:50px;
+    background-color:black;
+    text-align:center;
+    overflow: auto;
+    white-space: nowrap;
+}
+#divmenu a{
+    display:inline-block;
+    padding:14px;
+    text-decoration:none;
+    color:white;
+}
+#divmenu a:hover {
+    background:#777;
+}
+#divconteudo {
+    width:1000px;
+    height:400px;
+    background-color:lightgray;
+    overflow: auto;
+}
+#divrodape {
+    width:1000px;
+    height:30px;
+    background-color:black;
+    text-align:center;
+    color:white;
+
+}
